@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Almarai&display=swap');
+* {
+  font-family: 'Noto Sans JP', sans-serif !important;
+}
+
+input, textarea, button, select, input:hover, input:active, input:focus, textarea:hover, textarea:active, textarea:focus, button:hover, button:active, button:focus, select:hover, select:active, select:focus {
+  outline: 0px !important;
+  -webkit-appearance: none;
+  box-shadow: none !important;
+  border: none !important;
+}
+
+button:disabled {
+  opacity: 0.5;
+}
+
+.ar-text * {
+  text-align: right;
+  font-family: 'Almarai', sans-serif !important;
+}
+
+.ar-text .sec-desc, .ar-text .sec-list li {
+  font-size: 17px !important;
+}

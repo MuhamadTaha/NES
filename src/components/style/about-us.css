@@ -1,0 +1,47 @@
+#about-us {
+    background-color: #f8f8f8;
+    padding: 50px 0;
+}
+
+#about-us .about-part {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 50px;
+}
+
+#about-us .about-part .sec_title {
+    margin-bottom: 25px !important;
+    color: rgb(10, 26, 81);
+    border-bottom: 2px dashed rgba(232, 189, 123, 1);
+    width: max-content;
+    padding: 0 4px 7px 0;
+}
+
+#about-us .about-part .sec-list {
+    list-style-type: none;
+}
+
+#about-us .about-part .sec-list li {
+    margin-bottom: 5px;
+}
+
+#about-us .about-part .sec-list li::before {
+    content: "-";
+    display: inline-block;
+    margin: 0 10px;
+}
+
+/*  */
+
+#school-branch {
+    background-color: #f8f8f8;
+    padding: 50px 0;
+}
+
+#school-branch .col-10 {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 50px;
+}

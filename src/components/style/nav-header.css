@@ -1,0 +1,141 @@
+/* ------------------- */
+
+/* start of the Navbar */
+
+/* ------------------- */
+
+.navbar>.container>.d-flex {
+    width: 100% !important;
+}
+
+.navbar {
+    background-color: #fff !important;
+    border-bottom: 1px solid #ccc;
+    padding: 0 !important;
+}
+
+nav .row {
+    width: 100% !important;
+}
+
+nav>.container {
+    padding: 0;
+}
+
+nav #links-nav {
+    padding: 5px 0;
+}
+
+.navbar-collapse {
+    padding: 0;
+    width: max-content;
+}
+
+nav ul>.nav-item {
+    font-size: 15px;
+}
+
+nav .nav-item>a {
+    padding: 10px !important;
+    display: inline-block;
+    color: #333 !important;
+    text-transform: uppercase;
+}
+
+nav .nav-item>a span {
+    padding: 0 0 0 5px;
+    opacity: 0.2;
+    display: inline-block;
+}
+
+nav .nav-item>a::after {
+    display: none;
+}
+
+nav .nav-item>a:hover {
+    text-decoration: none;
+}
+
+nav .nav-item .active {
+    color: rgba(232, 189, 123, 1) !important;
+    text-decoration: underline !important;
+}
+
+.nav-container .dropdown-item {
+    line-height: normal !important;
+    border-bottom: 1px dashed #eee;
+    text-align: center;
+    padding: 5px 8px !important;
+    display: inline-block;
+    color: #222 !important;
+}
+
+nav .nav-item .dropdown-menu {
+    padding: 0;
+    left: -20%;
+}
+
+nav .nav-item:nth-of-type(4) .dropdown-menu {
+    width: 200%;
+    left: -50%;
+}
+
+nav .nav-item:nth-of-type(4) .dropdown-menu .dropdown-item {
+    width: 50%;
+}
+
+nav .nav-item:nth-of-type(4) .dropdown-item:nth-of-type(odd) {
+    border-right: 1px dashed #eee;
+}
+
+nav .nav-item:nth-of-type(4) .dropdown-item:nth-of-type(13), .dropdown-item:last-of-type {
+    border-bottom: none;
+}
+
+#top-nav {
+    background: rgb(10, 26, 81);
+}
+
+#top-nav .nav-Social a, footer .footer-social a {
+    line-height: 24px;
+    background-color: rgb(10, 26, 81);
+    width: max-content;
+    width: 27px;
+    text-align: center;
+    border-radius: 5px;
+    font-weight: bold;
+    color: rgba(232, 189, 123, 1);
+    border: 1px solid rgba(232, 189, 123, 1);
+    display: inline-block;
+    margin: 6px 10px 6px 0;
+    transition: all 1s;
+}
+
+#top-nav .nav-Social a:hover, footer .footer-social a:hover {
+    background-color: rgba(232, 189, 123, 1);
+    color: rgb(10, 26, 81);
+    transition: all 1s;
+}
+
+.nav-data .nav-slogan {
+    width: max-content;
+    display: inline-block;
+    color: rgba(232, 189, 123, 1);
+    line-height: 24px;
+    margin: 6px 0 0 0;
+    text-transform: uppercase;
+}
+
+#top-nav .dropdown button {
+    color: rgba(232, 189, 123, 1);
+}
+
+#top-nav .dropdown-item {
+    text-align: start
+}
+
+/* ------------------- */
+
+/* start of the header */
+
+/* ------------------- */
