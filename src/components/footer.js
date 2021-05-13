@@ -36,12 +36,12 @@ function Footer() {
                         </div>
                     </div>
 
-                    <div class="col-md-4 col-11 brief">
+                    <div class="col-md-5 col-11 brief">
                         <h4>{t('footer_brief_title')}</h4>
                         <p>{t('footer_brief_desc')} </p>
                     </div>
 
-                    <div class="col-md-4 col-11 contact-us">
+                    <div class="col-md-3 col-11 contact-us">
                         <h4> {t('footer_touch_title')} </h4>
                         <div class="footer-social">
                             <a href="https://www.facebook.com/nesofficial1" target="_blank">
