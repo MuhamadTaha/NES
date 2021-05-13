@@ -1,19 +1,18 @@
 import React, { Component } from 'react';
 import Header from './header.js';
+import { useTranslation } from "react-i18next";
 
-class Home_Sections extends Component {
-    render() {
+function Home_Sections() {
+    const { t } = useTranslation();
         return (
-            <div>
-                <div className='home'>
-                    <div className='container'>
-                        <h1> Home </h1>
-                        <Header />
-                    </div>
+            <section id='home'>
+                <div className='container'>
+                    <h1> {t('home_text')} </h1>
+                    <Header />
                 </div>
-            </div>
+            </section>
         )
     }
-}
+
 
 export default Home_Sections;
