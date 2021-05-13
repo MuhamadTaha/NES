@@ -139,3 +139,43 @@ nav .nav-item:nth-of-type(4) .dropdown-item:nth-of-type(13), .dropdown-item:last
 /* start of the header */
 
 /* ------------------- */
+
+footer {
+    background-color: rgb(10, 26, 81);
+    color: #aaa;
+    padding: 30px 0;
+}
+
+footer h4 {
+    margin-bottom: 20px;
+    color: #fff;
+    border-bottom: 2px dashed rgba(232, 189, 123, 1);
+    width: max-content;
+    padding: 0 4px 7px 0;
+    text-transform: uppercase;
+}
+
+footer .contact-us-element {
+    width: max-content;
+    height: max-content;
+    display: block;
+    padding: 8px 10px 8px 0;
+}
+
+footer .contact-us-element i {
+    color: rgba(232, 189, 123, 1);
+    display: inline-block;
+    width: 35px;
+    text-align: center;
+    border-right: 1px solid #444;
+    margin-right: 5px;
+}
+
+footer .contact-us-element p {
+    display: inline-block;
+    margin: 0;
+}
+
+footer .brief p {
+    width: 90%;
+}
