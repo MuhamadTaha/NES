@@ -142,7 +142,7 @@ nav .nav-item:nth-of-type(4) .dropdown-item:nth-of-type(13), .dropdown-item:last
 
 footer {
     background-color: rgb(10, 26, 81);
-    color: #aaa;
+    color: #eee;
     padding: 30px 0;
 }
 
@@ -151,7 +151,7 @@ footer h4 {
     color: #fff;
     border-bottom: 2px dashed rgba(232, 189, 123, 1);
     width: max-content;
-    padding: 0 4px 7px 0;
+    padding: 0 4px 7px 4px;
     text-transform: uppercase;
 }
 
@@ -159,7 +159,7 @@ footer .contact-us-element {
     width: max-content;
     height: max-content;
     display: block;
-    padding: 8px 10px 8px 0;
+    padding: 8px 10px 8px 10px;
 }
 
 footer .contact-us-element i {
@@ -167,8 +167,8 @@ footer .contact-us-element i {
     display: inline-block;
     width: 35px;
     text-align: center;
-    border-right: 1px solid #444;
     margin-right: 5px;
+    margin-left: 5px;
 }
 
 footer .contact-us-element p {
