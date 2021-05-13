@@ -10,7 +10,7 @@ class Footer extends Component {
                 <div className='container'>
                     <div class="row justify-content-center">
 
-                        <div class="col-md-3 col-11 contact-us">
+                        <div class="col-md-4 col-11 contact-us">
                             <h4> Contact Us </h4>
                             <div class="contact-us-element">
                                 <FontAwesomeIcon icon={faSchool}> </FontAwesomeIcon>
@@ -33,18 +33,12 @@ class Footer extends Component {
                             </div>
                         </div>
 
-                        <div class="col-md-3 col-11 brief">
+                        <div class="col-md-4 col-11 brief">
                             <h4> NES Brief </h4>
                             <p> Our vision is to play a leading role in transforming teaching &emp; learning culture through providing innovative cutting-edge pedagogical (teaching and learning) approaches and use of partnerships, and technology. </p>
                         </div>
 
-                        <div class="col-md-3 col-11 partners">
-                            <h4> NES Partners </h4>
-                            <img src="https://i.ibb.co/KDBxBvT/cambridge.jpg" alt="Nile Egyptian School" />
-
-                        </div>
-
-                        <div class="col-md-3 col-11 contact-us">
+                        <div class="col-md-4 col-11 contact-us">
                             <h4> Keep in Touch </h4>
                             <div class="footer-social">
                                 <a href="https://www.facebook.com/nesofficial1" target="_blank">
