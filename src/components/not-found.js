@@ -7,8 +7,12 @@ function NotFound() {
     return (
         <section id='not-found'>
             <div className='container'>
-                <h3>{t('error_title')}</h3>
-                <p>{t('error_message')}</p>
+                <div className='row'>
+                    <div className='col-10'>
+                        <h3>{t('error_title')}</h3>
+                        <p>{t('error_message')}</p>
+                    </div>
+                </div>
             </div>
         </section>
     )
