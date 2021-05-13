@@ -43,16 +43,19 @@ export default withRouter(function Navbar({ location }) {
     document.body.dir = currentLanguage.direction || 'ltr'
     var sections = document.querySelector('section')
     var header = document.querySelector('header')
+    var footer = document.querySelector('footer')
 
     if (document.body.dir === 'rtl') {
       if (sections != null) { sections.classList.add('ar-text'); }
       if (header != null) { header.classList.add('ar-text'); }
+      if (footer != null) { footer.classList.add('ar-text'); }
       document.getElementById('lang-modify-1').classList.add('ar-text');
       document.getElementById('margin-modify').classList.add('mr-auto');
       document.getElementById('margin-modify').classList.remove('ml-auto');
     } else {
       if (sections != null) { sections.classList.remove('ar-text') }
       if (header != null) { header.classList.remove('ar-text') }
+      if (footer != null) { footer.classList.remove('ar-text') }
       document.getElementById('lang-modify-1').classList.remove('ar-text')
       document.getElementById('margin-modify').classList.add('ml-auto');
       document.getElementById('margin-modify').classList.remove('mr-auto');
