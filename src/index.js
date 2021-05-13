@@ -38,7 +38,7 @@ ReactDOM.render(
   <Suspense fallback={loading}>
     <React.StrictMode>
       <App />
-    </React.StrictMode>,
+    </React.StrictMode>
   </Suspense>,
   document.getElementById('root')
 );
