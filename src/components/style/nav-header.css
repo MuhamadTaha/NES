@@ -142,7 +142,7 @@ nav .nav-item:nth-of-type(4) .dropdown-item:nth-of-type(13), .dropdown-item:last
 
 footer {
     background-color: rgb(10, 26, 81);
-    color: #eee;
+    color: #bbb;
     padding: 30px 0;
 }
 
@@ -162,10 +162,10 @@ footer .contact-us-element {
     padding: 8px 10px 8px 10px;
 }
 
-footer .contact-us-element i {
+footer .contact-us-element svg {
     color: rgba(232, 189, 123, 1);
     display: inline-block;
-    width: 35px;
+    width: 25px !important;
     text-align: center;
     margin-right: 5px;
     margin-left: 5px;
@@ -178,4 +178,8 @@ footer .contact-us-element p {
 
 footer .brief p {
     width: 90%;
+}
+
+footer .footer-social {
+    width: max-content;
 }
