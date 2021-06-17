@@ -74,6 +74,7 @@ export default withRouter(function Navbar({ location }) {
               <p class="nav-slogan"> {t('nav_slogan')} </p>
             </div>
 
+            {/*
             <div class="nav-Social d-flex">
               <a href="https://www.facebook.com/nesofficial1" target="_blank">
                 <FontAwesomeIcon icon={faFacebookF}> </FontAwesomeIcon>
@@ -88,7 +89,7 @@ export default withRouter(function Navbar({ location }) {
                 <FontAwesomeIcon icon={faLinkedinIn}> </FontAwesomeIcon>
               </a>
             </div>
-
+ */}
             <div className="dropdown d-flex">
               <button className="btn dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" > <GlobalIcon /> </button>
               <div className="dropdown-menu" aria-labelledby="dropdownMenuButton">
@@ -121,7 +122,12 @@ export default withRouter(function Navbar({ location }) {
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
               <ul class="navbar-nav ml-auto" id='margin-modify'>
                 <li class="nav-item active">
-                  <NavLink class="dropdown-item" to="/about" class="nav-link"> {t('nav_title_1')} </NavLink>
+
+                  <Link to="/" class="nav-link"> {t('nav_title_0')} </Link>
+                </li>
+
+                <li class="nav-item">
+                  <NavLink to="/about" class="nav-link"> {t('nav_title_1')} </NavLink>
                 </li>
 
                 <li class="nav-item dropdown">
