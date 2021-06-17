@@ -5,6 +5,7 @@ import Home_Sections from './components/home-sections';
 import About_us from './components/about-us';
 import School_Branch from './components/school-branch';
 import NotFound from './components/not-found';
+import Programs from './components/programs';
 import { BrowserRouter, Switch, Route } from "react-router-dom";
 
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -25,6 +26,7 @@ class App extends Component {
             <Route exact path='/' component={Home_Sections} />
             <Route exact path='/about' component={About_us} />
             <Route exact path='/school-branch' component={School_Branch} />
+            <Route exact path='/Programs' component={Programs} />
             <Route component={NotFound} />
           </Switch>
           <Footer />
