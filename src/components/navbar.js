@@ -26,7 +26,7 @@ export default withRouter(function Navbar({ location }) {
     {
       code: "ar",
       name: "العربية",
-      country_code: "sa",
+      country_code: "eg",
       direction: "rtl"
     },
   ];
@@ -142,10 +142,43 @@ export default withRouter(function Navbar({ location }) {
                 <li class="nav-item dropdown">
                   <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> {t('nav_title_3')} <span><FontAwesomeIcon icon={faChevronDown} ></FontAwesomeIcon> </span> </a>
                   <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <a class="dropdown-item" href="#">{t('nav_title_3_sub_1')}</a>
-                    <a class="dropdown-item" href="#">{t('nav_title_3_sub_2')}</a>
-                    <a class="dropdown-item" href="#">{t('nav_title_3_sub_3')}</a>
-                    <a class="dropdown-item" href="#">{t('nav_title_3_sub_4')}</a>
+
+                    <Link class="dropdown-item" to={{
+                      pathname: '/Programs',
+                      clickedProgData: {
+                        name: t('nav_title_3_sub_1'),
+                        desc: t('nav_title_3_sub_1_desc'),
+                        id: 1
+                      }
+                    }} exact > {t('nav_title_3_sub_1')} </Link>
+
+                    <Link class="dropdown-item" to={{
+                      pathname: '/Programs',
+                      clickedProgData: {
+                        name: t('nav_title_3_sub_2'),
+                        desc: t('nav_title_3_sub_2_desc'),
+                        id: 2
+                      }
+                    }} exact > {t('nav_title_3_sub_2')} </Link>
+
+                    <Link class="dropdown-item" to={{
+                      pathname: '/Programs',
+                      clickedProgData: {
+                        name: t('nav_title_3_sub_3'),
+                        desc: t('nav_title_3_sub_3_desc'),
+                        id: 3
+                      }
+                    }} exact > {t('nav_title_3_sub_3')} </Link>
+
+                    <Link class="dropdown-item" to={{
+                      pathname: '/Programs',
+                      clickedProgData: {
+                        name: t('nav_title_3_sub_4'),
+                        desc: t('nav_title_3_sub_4_desc'),
+                        id: 4
+                      }
+                    }} exact > {t('nav_title_3_sub_4')} </Link>
+
                   </div>
                 </li>
 
