@@ -25,11 +25,13 @@ function School_Branch(props) {
                             <h2 className='sec_title'> {t(`school_name_${schoolId}`)}  </h2>
                             <p className='sec-desc'> {t(`school_desc_${schoolId}`)}  </p>
                             <ul className='sec-list'>
-                                <li> {t('0_details_0')} </li>
-                                <li> {t('0_details_0')} </li>
-                                <li> {t('0_details_0')} </li>
-                                <li> {t('0_details_0')} </li>
-                                <li> {t('0_details_0')} </li>
+                                <li> {t('0_school_details_0')} </li>
+                                <li> {t('0_school_details_0')} </li>
+                                <li> {t('0_school_details_0')} </li>
+                                <li> {t('0_school_details_0')} </li>
+                                <li> {t('0_school_details_0')} </li>
+                                <li> {t('0_school_details_0')} </li>
+                                <li> {t('0_school_details_0')} </li>
                             </ul>
 
                         </div>
