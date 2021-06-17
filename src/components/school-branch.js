@@ -22,8 +22,16 @@ function School_Branch(props) {
                             <img src="https://i.ibb.co/dM86q1Z/NES-Logo.png" alt="NES-Logo" border="0" />
                         </div>
                         <div className='col-6'>
-                            <h2> {t(`school_name_${schoolId}`)}  </h2>
-                            <p> {t(`school_desc_${schoolId}`)}  </p>
+                            <h2 className='sec_title'> {t(`school_name_${schoolId}`)}  </h2>
+                            <p className='sec-desc'> {t(`school_desc_${schoolId}`)}  </p>
+                            <ul className='sec-list'>
+                                <li> {t('0_details_0')} </li>
+                                <li> {t('0_details_0')} </li>
+                                <li> {t('0_details_0')} </li>
+                                <li> {t('0_details_0')} </li>
+                                <li> {t('0_details_0')} </li>
+                            </ul>
+
                         </div>
                     </div>
                 </div>
