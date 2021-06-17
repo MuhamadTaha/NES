@@ -1,5 +1,6 @@
 {
   "home_text": "Home Page",
+  "test_text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. ",
   "error_title": "404 page not found",
   "error_message": "We are sorry but the page you are looking for does not exist.",
   "nav_slogan": "LEARNERS TODAY, LEADERS TOMORROW.",
@@ -141,5 +142,7 @@
   "footer_contact_address": "27 Mossadak, Dokki, Giza, Egypt",
   "footer_brief_title": "NES Brief",
   "footer_brief_desc": "Our vision is to play a leading role in transforming teaching & learning culture through providing innovative cutting-edge pedagogical (teaching and learning) approaches and use of partnerships, and technology.",
-  "footer_touch_title": "Keep in Touch"
+  "footer_touch_title": "Keep in Touch",
+  "0_details_0": "More details",
+  "0_programs_0": "Program"
 }
