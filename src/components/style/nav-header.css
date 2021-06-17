@@ -40,6 +40,7 @@ nav .nav-item>a {
     display: inline-block;
     color: #333 !important;
     text-transform: uppercase;
+    font-size: 14px;
 }
 
 nav .nav-item>a span {
@@ -75,20 +76,20 @@ nav .nav-item .dropdown-menu {
     left: -20%;
 }
 
-nav .nav-item:nth-of-type(4) .dropdown-menu {
+nav .nav-item:nth-of-type(5) .dropdown-menu {
     width: 200%;
     left: -50%;
 }
 
-nav .nav-item:nth-of-type(4) .dropdown-menu .dropdown-item {
+nav .nav-item:nth-of-type(5) .dropdown-menu .dropdown-item {
     width: 50%;
 }
 
-nav .nav-item:nth-of-type(4) .dropdown-item:nth-of-type(odd) {
+nav .nav-item:nth-of-type(5) .dropdown-item:nth-of-type(odd) {
     border-right: 1px dashed #eee;
 }
 
-nav .nav-item:nth-of-type(4) .dropdown-item:nth-of-type(13), .dropdown-item:last-of-type {
+nav .nav-item:nth-of-type(5) .dropdown-item:nth-of-type(13), .dropdown-item:last-of-type {
     border-bottom: none;
 }
 
