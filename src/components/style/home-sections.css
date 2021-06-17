@@ -1,3 +1,82 @@
 #home {
     min-height: 600px;
+    padding: 30px 0;
+}
+
+.carousel {
+    border: 1px solid rgba(232, 189, 123, 1);
+    padding: 3px;
+}
+
+.carousel-control-next, .carousel-control-prev {
+    background-color: rgba(232, 189, 123, 1);
+    width: max-content;
+    height: max-content;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 4px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+/**/
+
+/**/
+
+/**/
+
+/**/
+
+/**/
+
+/**/
+
+#school-branch, #programs {
+    background-color: #f8f8f8;
+    padding: 50px 0;
+}
+
+#school-branch .col-10, #programs .col-10 {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 50px;
+}
+
+#programs h2, #school-branch h2 {
+    margin-bottom: 30px;
+}
+
+.sec_title {
+    margin-bottom: 25px !important;
+    color: rgb(10, 26, 81);
+    border-bottom: 2px dashed rgba(232, 189, 123, 1);
+    width: max-content;
+    padding: 0 4px 7px 0;
+}
+
+.sec-list {
+    list-style-type: none;
+}
+
+.sec-list li {
+    margin-bottom: 5px;
+}
+
+.sec-list li::before {
+    content: "-";
+    display: inline-block;
+    margin: 0 10px;
+}
+
+#home .sec_title {
+    margin: 20px 0 60px !important;
+}
+
+header h3 {
+    margin: 30px 0;
+}
+
+header p:last-of-type {
+    margin-bottom: 70px;
 }
