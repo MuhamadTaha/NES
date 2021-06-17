@@ -25,11 +25,11 @@ function Programs(props) {
                             <h2 className='sec_title'>{t('0_programs_0')} {t(`nav_title_3_sub_${progId}`)}  </h2>
                             <p className='sec-desc'> {t(`nav_title_3_sub_${progId}_desc`)}  </p>
                             <ul className='sec-list'>
-                                <li> {t('0_details_0')} </li>
-                                <li> {t('0_details_0')} </li>
-                                <li> {t('0_details_0')} </li>
-                                <li> {t('0_details_0')} </li>
-                                <li> {t('0_details_0')} </li>
+                                <li> {t('0_programs_details_0')} </li>
+                                <li> {t('0_programs_details_0')} </li>
+                                <li> {t('0_programs_details_0')} </li>
+                                <li> {t('0_programs_details_0')} </li>
+                                <li> {t('0_programs_details_0')} </li>
                             </ul>
                         </div>
                     </div>
