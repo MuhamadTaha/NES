@@ -122,8 +122,7 @@ export default withRouter(function Navbar({ location }) {
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
               <ul class="navbar-nav ml-auto" id='margin-modify'>
                 <li class="nav-item active">
-
-                  <Link to="/" class="nav-link"> {t('nav_title_0')} </Link>
+                  <NavLink to="/" class="nav-link"> {t('nav_title_0')} </NavLink>
                 </li>
 
                 <li class="nav-item">
